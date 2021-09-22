@@ -24,16 +24,23 @@
             .text {
                 display: inline-block;
                 color: $color-white;
+                margin-right: 50px;
                 h3 {
                     font-size: 30px;
                     font-weight: bold;
                     text-transform: capitalize;
+                    text-align: right;
+                    padding-bottom: 10px;
+                    padding-top: 50px;
                 }
                 p {
                     text-transform: capitalize;
                     font-size: 20px;
+                    text-align: right;
+                    padding-bottom: 40px;
                 }
                 a {
+
                     display: block;
                     color: $color-white;
                     text-transform: uppercase;
@@ -45,6 +52,10 @@
                     border: 1px solid $color-white;
                     line-height: 40px;
                     text-align: center;
+                    transition: background-color 0.3s ease-in-out;
+                    &:hover{
+                        background-color: $color-green;
+                    }
                 }
             }
         }
