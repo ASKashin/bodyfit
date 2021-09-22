@@ -1,4 +1,4 @@
-# Gabooo
+# Bodyfit
 
 You can see it [here](https://askashin.github.io/bodyfit/).
 
