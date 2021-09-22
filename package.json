@@ -5,12 +5,13 @@
   "main": "index.js",
   "dependencies": {
     "node-sass": "^6.0.1",
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "normalize-scss": "^7.0.1"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --include-path scss css/index.scss public/css/main.css --output-style compressed",
+    "scss": "node-sass --include-path scss assets/css/index.scss public/css/main.css --output-style compressed",
     "watch": "nodemon -e scss -x \"npm run scss\""
   },
   "repository": {

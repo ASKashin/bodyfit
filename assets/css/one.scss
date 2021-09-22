@@ -1,0 +1,99 @@
+@import "colors";
+
+.one {
+    background-image: url("../../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 265px;
+    header.main {
+        padding-top: 35px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 190px;
+
+        .logo {
+            margin-left: 5px;
+        }
+
+        .menu {
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            ul {
+                display: flex;
+                justify-content: space-between;
+                gap: 40px;
+                margin-right: 10px;
+
+                li {
+                    display: inline-block;
+
+                    a {
+                        color: $color-white;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        font-size: 12px;
+                        transition: color 0.3s ease-in-out;
+                        &:hover{
+                            color: $color-green;
+                        }
+                    }
+                }
+            }
+
+            div {
+                display: flex;
+                justify-content: space-between;
+                gap: 10px;
+                a {
+                    position: relative;
+                    top: 4px;
+                    color: $color-white;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    transition: color 0.3s ease-in-out;
+                    &:hover{
+                     color: $color-green;}
+                }
+            }
+        }
+    }
+
+    div.title {
+        margin-left: 125px;
+        color: $color-white;
+        h1 {
+            text-transform: uppercase;
+            font-size: 50px;
+            font-weight: bold;
+            span {
+                color: $color-green;
+            }
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 25px;
+            margin-bottom: 55px;
+            width: 490px;
+        }
+        a {
+            display: block;
+            color: $color-white;
+            font-weight: bold;
+            font-size: 14px;
+            text-transform: uppercase;
+            text-decoration: none;
+            line-height: 40px;
+            border: 1px solid $color-green;
+            width: 205px;
+            height: 40px;
+            text-align: center;
+            transition: background-color 0.3s ease-in-out;
+            &:hover {
+                background-color: $color-green;
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+@import "colors";
+
+.features {
+    background-image: url("../../images/bg-features.jpg");
+    height: 300px;
+    .container {
+        padding-top: 29px;
+        div {
+            display: flex;
+            justify-content: space-between;
+            .images {
+                .wfw {
+
+                }
+                .wfm {
+                    position: relative;
+                    left: -20px;
+                }
+                .wfmg {
+                    position: relative;
+                    left: -40px;
+                }
+            }
+            .text {
+                display: inline-block;
+                color: $color-white;
+                h3 {
+                    font-size: 30px;
+                    font-weight: bold;
+                    text-transform: capitalize;
+                }
+                p {
+                    text-transform: capitalize;
+                    font-size: 20px;
+                }
+                a {
+                    display: block;
+                    color: $color-white;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 14px;
+                    text-decoration: none;
+                    width: 205px;
+                    height: 40px;
+                    border: 1px solid $color-white;
+                    line-height: 40px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
