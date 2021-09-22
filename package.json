@@ -1,0 +1,27 @@
+{
+  "name": "bodyfit",
+  "version": "1.0.0",
+  "description": "You can see it [here](https://askashin.github.io/gabooo/).",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --include-path scss css/index.scss public/css/main.css --output-style compressed",
+    "watch": "nodemon -e scss -x \"npm run scss\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASKashin/bodyfit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ASKashin/bodyfit/issues"
+  },
+  "homepage": "https://github.com/ASKashin/bodyfit#readme"
+}
