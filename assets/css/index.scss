@@ -16,7 +16,13 @@ body {
     margin: 0 auto;
 }
 
+.flex{
+    display: flex;
+    justify-content: space-between
+}
+
 @import "one";
 @import "features";
 @import "services";
+@import "daily";
 

@@ -8,77 +8,43 @@
                 padding-top: 120px;
                 ul {
                     display: flex;
-                    justify-content: space-around;
-                    li.fitness {
-
-                        display: inline-block;
+                    justify-content: space-between;
+                    li.service {
+                        display: block;
                         text-align: center;
-                        a {
-                            text-decoration: none;
-
-                            img {
-                                padding-bottom: 20px;
-                            }
-                            p {
-                                font-weight: bold;
-                                font-size: 20px;
+                        color: $color-blue;
+                        padding-top: 105px;
+                        h4 {
+                            font-size: 20px;
+                            margin-bottom: 20px;
+                        }
+                        p {
+                            font-size: 14px;
+                            font-weight: 300;
+                            width: 280px;
+                        }
+                        &.fitness {
+                            background: url(../../assets/images/fitness.png) center top no-repeat;
+                        }
+                        &.diet {
+                            background: url(../../assets/images/gym.png) center top no-repeat;
+                        }
+                        &.habbits {
+                            background: url(../../assets/images/mat.png) center top no-repeat;
+                        }
+                        &:hover {
+                            h4 {
                                 color: $color-green;
-                                padding-bottom: 20px;
                             }
-                        }
-                        p {
-                            font-size: 14px;
-                            font-weight: 300;
-                            width: 280px;
-                            color: $color-blue;
-                        }
-                    }
-                    li.diet {
-                        display: inline-block;
-                        text-align: center;
-                        a {
-                            text-decoration: none;
-                            font-weight: bold;
-
-                            img {
-                                padding-bottom: 20px;
+                            &.fitness {
+                                background-image: url(../../assets/images/fitness-active.png);
                             }
-                            p {
-                                font-weight: bold;
-                                font-size: 20px;
-                                color: $color-blue;
-                                padding-bottom: 20px;
+                            &.diet {
+                                background-image: url(../../assets/images/gym-active.png);
                             }
-                        }
-                        p {
-                            font-size: 14px;
-                            font-weight: 300;
-                            width: 280px;
-                            color: $color-blue;
-                        }
-                    }
-                    li.habbits {
-                        display: inline-block;
-                        text-align: center;
-                        a {
-                            text-decoration: none;
-                            font-weight: bold;
-
-                            img {
-                                padding-bottom: 20px;
+                            &.habbits {
+                                background-image: url(../../assets/images/mat-active.png);
                             }
-                            p {
-                                font-weight: bold;
-                                font-size: 20px;
-                                color: $color-blue;
-                                padding-bottom: 20px;
-                            }
-                        }
-                        p { 
-                            font-size: 14px;
-                            font-weight: 300;
-                            width: 290px;
-                            color: $color-blue;
                         }
                     }
                 }
@@ -92,16 +58,15 @@
                 padding-top: 90px;
                 text-align: center;
                 padding-bottom: 15px;
-                p {
+                h4 {
                     color: #838383;
                     font-size: 20px;
-                    font-weight: bold;
                 }
-                .give {
+                p {
                     color: #a0a0a0;
                     font-size: 14px;
                     font-weight: 300;
-                    span{
+                    span {
                         color: $color-green;
                     }
                 }

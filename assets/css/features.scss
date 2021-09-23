@@ -8,75 +8,70 @@
         width: 1110px;
         padding-top: 29px;
 
-        div {
-            display: flex;
-            justify-content: space-between;
+        .images {
+            a {
+                position: relative;
+                color: $color-white;
+                text-decoration: none;
 
-            .images {
-                .wfw {
-                    position: relative;
-                    transition: all 0.3s ease-in-out;
-                    z-index: 1;
-
-                    &:hover {
-                        opacity: 0.5;
-                        z-index: 2;
-                        background-image: url(../../assets/images/shadow.png);
-                        background-repeat: no-repeat;
+                div {
+                    display: none;
+                    position: absolute;
+                    bottom: 4px;
+                    left: 0;
+                    background: url(../../assets/images/shadow.png) left top no-repeat;
+                    height: 75px;
+                    width: 200px;
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    line-height: 75px;
+                    text-align: center;
+                }
+                &:hover{
+                    div {
+                        display: block;
                     }
-                }
-
-                .wfm {
-                    position: relative;
-                    left: -20px;
-                    transition: all 0.3s ease-in-out;
-                }
-
-                .wfmg {
-                    position: relative;
-                    left: -40px;
-                    transition: all 0.3s ease-in-out;
                 }
             }
+        }
 
-            .text {
+        .text {
+            display: inline-block;
+            color: $color-white;
+            margin-right: 50px;
+            text-align: right;
+
+            h3 {
+                font-size: 30px;
+                font-weight: bold;
+                text-transform: capitalize;
+                padding-bottom: 10px;
+                padding-top: 50px;
+            }
+
+            p {
+                text-transform: capitalize;
+                font-size: 20px;
+                padding-bottom: 40px;
+            }
+
+            a {
                 display: inline-block;
                 color: $color-white;
-                margin-right: 50px;
-                text-align: right;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 14px;
+                text-decoration: none;
+                width: 205px;
+                height: 40px;
+                border: 1px solid $color-white;
+                line-height: 40px;
+                text-align: center;
+                transition: all 0.3s ease-in-out;
 
-                h3 {
-                    font-size: 30px;
-                    font-weight: bold;
-                    text-transform: capitalize;
-                    padding-bottom: 10px;
-                    padding-top: 50px;
-                }
-
-                p {
-                    text-transform: capitalize;
-                    font-size: 20px;
-                    padding-bottom: 40px;
-                }
-
-                a {
-                    display: inline-block;
-                    color: $color-white;
-                    text-transform: uppercase;
-                    font-weight: bold;
-                    font-size: 14px;
-                    text-decoration: none;
-                    width: 205px;
-                    height: 40px;
-                    border: 1px solid $color-white;
-                    line-height: 40px;
-                    text-align: center;
-                    transition: all 0.3s ease-in-out;
-
-                    &:hover {
-                        background-color: $color-white;
-                        color: $color-black;
-                    }
+                &:hover {
+                    background-color: $color-white;
+                    color: $color-black;
                 }
             }
         }

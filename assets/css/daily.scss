@@ -1,0 +1,19 @@
+@import "colors";
+
+.daily {
+    margin-top: 135px;
+    margin-bottom: 158px;
+    background-color: $color-blue;
+    .container {
+        .photo {
+            ul {
+                display: flex;
+                justify-content: center;
+
+                li {
+                    display: block;
+                }
+            }
+        }
+    }
+}
