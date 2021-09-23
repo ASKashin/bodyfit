@@ -1,0 +1,110 @@
+@import "colors";
+
+.services {
+    .container {
+        div {
+            .icon {
+                padding-top: 120px;
+                ul {
+                    display: flex;
+                    justify-content: space-around;
+                    li.fitness {
+
+                        display: inline-block;
+                        text-align: center;
+                        a {
+                            text-decoration: none;
+
+                            img {
+                                padding-bottom: 20px;
+                            }
+                            p {
+                                font-weight: bold;
+                                font-size: 20px;
+                                color: $color-green;
+                                padding-bottom: 20px;
+                            }
+                        }
+                        p {
+                            font-size: 14px;
+                            font-weight: 300;
+                            width: 280px;
+                            color: $color-blue;
+                        }
+                    }
+                    li.diet {
+                        display: inline-block;
+                        text-align: center;
+                        a {
+                            text-decoration: none;
+                            font-weight: bold;
+
+                            img {
+                                padding-bottom: 20px;
+                            }
+                            p {
+                                font-weight: bold;
+                                font-size: 20px;
+                                color: $color-blue;
+                                padding-bottom: 20px;
+                            }
+                        }
+                        p {
+                            font-size: 14px;
+                            font-weight: 300;
+                            width: 280px;
+                            color: $color-blue;
+                        }
+                    }
+                    li.habbits {
+                        display: inline-block;
+                        text-align: center;
+                        a {
+                            text-decoration: none;
+                            font-weight: bold;
+
+                            img {
+                                padding-bottom: 20px;
+                            }
+                            p {
+                                font-weight: bold;
+                                font-size: 20px;
+                                color: $color-blue;
+                                padding-bottom: 20px;
+                            }
+                        }
+                        p { 
+                            font-size: 14px;
+                            font-weight: 300;
+                            width: 290px;
+                            color: $color-blue;
+                        }
+                    }
+                }
+            }
+            .photo {
+                padding-top: 60px;
+                display: flex;
+                justify-content: space-between;
+            }
+            .text {
+                padding-top: 90px;
+                text-align: center;
+                padding-bottom: 15px;
+                p {
+                    color: #838383;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                .give {
+                    color: #a0a0a0;
+                    font-size: 14px;
+                    font-weight: 300;
+                    span{
+                        color: $color-green;
+                    }
+                }
+            }
+        }
+    }
+}
