@@ -1,0 +1,31 @@
+@import "colors";
+
+.fully {
+    padding-top: 24px;
+    margin-bottom: 55px;
+    .container {
+        .items {
+            text-align: center;
+            img {
+            }
+            h4 {
+                color: $color-blue;
+                font-size: 30px;
+                margin-bottom: 10px;
+            }
+            .prof {
+                font-size: 20px;
+                color: #404040;
+                margin-bottom: 10px;
+            }
+            .text {
+                font-size: 14px;
+                color: #797979;
+                font-weight: 300;
+                width: 500px;
+                margin-bottom: 46px;
+
+            }
+        }
+    }
+}
