@@ -27,6 +27,7 @@ footer {
         padding: 130px 0;
         border-top: 3px solid $color-white;
         .container {
+            width: 1110px;
             gap: 25px;
             div {
                 flex: 1;
@@ -89,6 +90,39 @@ footer {
                         transition: background-color 0.3s ease-in-out;
                         &:hover {
                             background-color: #637180;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.menu {
+        background-color: $color-blue2;
+        height: 75px;
+        .container {
+            width: 1110px;
+            div {
+                p {
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 75px;
+                }
+            }
+            nav {
+                ul {
+                    gap: 40px;
+                    li {
+                        display: inline-block;
+                        a {
+                            text-decoration: none;
+                            text-transform: uppercase;
+                            color: $color-white;
+                            font-size: 12px;
+                            transition: color 0.3s ease-in-out;
+                            line-height: 75px;
+                            &:hover{
+                                color: $color-green;
+                            }
                         }
                     }
                 }
