@@ -5,15 +5,14 @@
     margin-bottom: 158px;
     background-color: $color-blue;
     .container {
-        .photo {
-            ul {
-                display: flex;
-                justify-content: center;
 
+            ul {
                 li {
                     display: block;
+                    a{
+                        display: block;
+                    }
                 }
             }
-        }
     }
 }

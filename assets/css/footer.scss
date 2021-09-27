@@ -1,0 +1,98 @@
+@import "colors";
+
+footer {
+    background-color: $color-green;
+    color: $color-white;
+    &.socials {
+        padding: 95px 0;
+        ul {
+            width: 540px;
+            margin: 0 auto;
+            li {
+                display: block;
+                a {
+                    display: block;
+                    color: $color-white;
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 50%;
+                    background-color: $color-blue2;
+                    text-align: center;
+                    line-height: 35px;
+                }
+            }
+        }
+    }
+    &.main {
+        padding: 130px 0;
+        border-top: 3px solid $color-white;
+        .container {
+            gap: 25px;
+            div {
+                flex: 1;
+                img {
+                    margin-bottom: 30px;
+                }
+                p {
+                    line-height: 24px;
+                    font-size: 14px;
+                    font-weight: 300;
+                    margin-bottom: 30px;
+                    &.text {
+                        margin-bottom: 15px;
+                        .block {
+                            display: block;
+                        }
+                    }
+                }
+                .blue2 {
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: $color-blue2;
+                    text-transform: uppercase;
+                }
+                i {
+                    width: 15px;
+                }
+                h5 {
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    color: $color-blue2;
+                    margin-bottom: 30px;
+                }
+                form {
+                    input {
+                        height: 40px;
+                        width: 100%;
+                        background-color: transparent;
+                        border: 2px solid $color-white;
+                        padding: 0 10px;
+                        color: $color-white;
+                        margin-bottom: 10px;
+                        &::placeholder {
+                            color: $color-white;
+                        }
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                    button {
+                        width: 120px;
+                        height: 40px;
+                        background-color: $color-blue2;
+                        color: $color-white;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        cursor: pointer;
+                        border: none;
+                        margin-top: 5px;
+                        transition: background-color 0.3s ease-in-out;
+                        &:hover {
+                            background-color: #637180;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

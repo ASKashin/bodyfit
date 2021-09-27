@@ -1,0 +1,116 @@
+@import "colors";
+
+.shop {
+    padding-top: 150px;
+    padding-bottom: 190px;
+    background-color: #f5f5f5;
+    .container {
+        .images {
+            margin-bottom: 215px;
+            li {
+                border: 1px solid #d6d6d6;
+                display: block;
+                background-color: $color-white;
+                flex: 1;
+                text-align: center;
+                padding-bottom: 50px;
+                position: relative;
+                p {
+                    font-size: 14px;
+                    color: #737373;
+                    text-transform: capitalize;
+                    height: 75px;
+                    padding: 0 25px;
+                    line-height: 24px;
+                    text-align: left;
+                    margin-top: 35px;
+                }
+                a {
+                    margin: 0 auto;
+                    text-decoration: none;
+                    display: block;
+                    background-color: #1f4b6e;
+                    text-transform: uppercase;
+                    border: 1px solid #1f4b6e;
+                    width: 135px;
+                    height: 35px;
+                    line-height: 35px;
+                    text-align: center;
+                    font-size: 14px;
+                    color: $color-white;
+                    font-weight: bold;
+                    transition: background-color 0.3s ease-in-out;
+                    &:hover {
+                        background-color: #637180;
+                    }
+                }
+                .hover {
+                    background-color: rgba(18,40,62,0.66);
+                    display: none;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 245px;
+                    align-items: center;
+                    a {
+                        width: 125px;
+                        height: 35px;
+                        color: $color-white;
+                        border: 1px solid $color-white;
+                        background-color: transparent;
+                        font-size: 12px;
+
+                    }
+                }
+                &:hover {
+                    .hover {
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+    .statistic {
+        width: 1110px;
+        margin: 0 auto;
+        li.stat {
+            display: block;
+            text-align: center;
+            color: $color-white;
+            border: 7px solid $color-white;
+            border-radius: 50%;
+            width: 195px;
+            height: 195px;
+            padding-top: 90px;
+            background-color: $color-green;
+            background-position: center 36px;
+            background-repeat: no-repeat;
+
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 20px;
+                font-weight: bold;
+                color: $color-white;
+            }
+            &.classes {
+                background-image: url(../../assets/images/bg1.png);
+            }
+            &.awards {
+                background-image: url(../../assets/images/bg2.png);
+            }
+            &.trainers {
+                background-image: url(../../assets/images/bg3.png);
+            }
+            &.members {
+                background-image: url(../../assets/images/bg4.png);
+            }
+
+            &:hover {
+                background-color: $color-blue2;
+                border-color: $color-green;
+            }
+        }
+    }
+}

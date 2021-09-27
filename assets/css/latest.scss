@@ -1,0 +1,41 @@
+@import "colors";
+.latest {
+    background-image: url(../../assets/images/Latest-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 345px;
+    padding-top: 75px;
+    .wrapper {
+        width: 508px;
+        color: $color-white;
+        text-align: center;
+        margin: 0 auto;
+        h4 {
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 14px;
+            line-height: 25px;
+            margin: 45px 0;
+        }
+        a {
+            display: block;
+            text-transform: uppercase;
+            text-decoration: none;
+            width: 166px;
+            height: 50px;
+            color: $color-white;
+            background-color: $color-green;
+            line-height: 50px;
+            margin: 0 auto;
+            border: 1px solid $color-green;
+            transition: all 0.3s ease-in-out;
+            &:hover {
+                background: transparent;
+                color: $color-green;
+
+            }
+        }
+    }
+}
