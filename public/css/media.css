@@ -129,8 +129,8 @@
     }
     .class .container .wrapper .m_class {
         bottom: 343px;
-    right: 7px;
-    width: 250px;
+        right: 7px;
+        width: 250px;
     }
     .class .container .wrapper .m_class h4 {
         font-size: 25px;
@@ -148,36 +148,51 @@
         font-size: 12px;
         margin-top: 0;
     }
-    .shop{
+    .shop {
         padding: 30px 0;
     }
-
-    .shop .container .images{
+    .shop .container .images {
         flex-wrap: wrap;
         width: 500px;
         margin: 0 auto;
     }
-
-    .shop .container .images li{
+    .shop .container .images li {
         padding-bottom: 20px;
     }
-    .shop .container .images li p{
+    .shop .container .images li p {
         margin-top: 10px;
     }
-
     .shop .statistic {
         gap: 5px;
         width: 600px;
         margin-top: 25px;
     }
-    .shop .statistic li.stat{
+    .shop .statistic li.stat {
         width: 140px;
         height: 140px;
         background-position: center 15px;
         padding-top: 70px;
     }
-    .shop .statistic li.stat a{
+    .shop .statistic li.stat a {
         font-size: 15px;
     }
-   
+    .latest {
+        padding-top: 20px;
+
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 193px;
+
+    }
+    .latest .wrapper h4 {
+        font-size: 25px;
+    }
+    .latest .wrapper p{
+        margin: 15px 0;
+    }
+    .latest .wrapper a{
+        width: 150px;
+        height: 40px; 
+        line-height: 40px; 
+    }
 }
