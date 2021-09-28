@@ -39,8 +39,7 @@
         background-size: 100%;
         height: 130px;
     }
-
-    .features .container{
+    .features .container {
         padding-top: 8px;
     }
     .features .container .images {
@@ -63,46 +62,122 @@
         line-height: 30px;
         font-size: 12px;
     }
-
-    .services .container div .icon{
+    .services .container div .icon {
         padding-top: 10px;
     }
-    .services .container div .icon ul li.service{
+    .services .container div .icon ul li.service {
         width: 200px;
         padding-top: 90px;
     }
-    .services .container div .icon ul li.service p{
-    width: 200px;
-    }
-
-    .services .container div .photo{
-        padding-top: 20px;
-    }
-    .services .container div .photo img{
+    .services .container div .icon ul li.service p {
         width: 200px;
     }
-
-    .services .container div .text{
+    .services .container div .photo {
+        padding-top: 20px;
+    }
+    .services .container div .photo img {
+        width: 200px;
+    }
+    .services .container div .text {
         padding-top: 30px;
     }
-
-    .daily{
+    .daily {
         margin: 30px 0;
     }
-    .daily .container .photo .flex{
-    justify-content: center
+    .daily .container .photo .flex {
+        justify-content: center
     }
-
-    .daily .container ul li a{
+    .daily .container ul li a {
         width: 210px;
     }
-    .daily .container ul li a img{
+    .daily .container ul li a img {
         width: 210px;
     }
-
-    .fully{
-        padding:10px 0;
+    .fully {
+        padding: 10px 0;
         margin-bottom: 30px;
     }
-    
+    .class {
+        background-image: url(../../assets/images/bg-main.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 400px;
+    }
+    .class .container .wrapper .w_class {
+        top: 10px;
+        left: 10px;
+        width: 250px;
+    }
+    .class .container .wrapper .w_class h4 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .class .container .wrapper .w_class p {
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+    .class .container .wrapper .w_class a {
+        width: 150px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+    }
+    .class .container .wrapper .center-text {
+        font-size: 12px;
+        bottom: 509px;
+        right: 275px;
+    }
+    .class .container .wrapper .m_class {
+        bottom: 343px;
+    right: 7px;
+    width: 250px;
+    }
+    .class .container .wrapper .m_class h4 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .class .container .wrapper .m_class p {
+        margin-bottom: 15px;
+        margin-top: 0;
+        font-size: 12px;
+    }
+    .class .container .wrapper .m_class a {
+        width: 150px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .shop{
+        padding: 30px 0;
+    }
+
+    .shop .container .images{
+        flex-wrap: wrap;
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .shop .container .images li{
+        padding-bottom: 20px;
+    }
+    .shop .container .images li p{
+        margin-top: 10px;
+    }
+
+    .shop .statistic {
+        gap: 5px;
+        width: 600px;
+        margin-top: 25px;
+    }
+    .shop .statistic li.stat{
+        width: 140px;
+        height: 140px;
+        background-position: center 15px;
+        padding-top: 70px;
+    }
+    .shop .statistic li.stat a{
+        font-size: 15px;
+    }
+   
 }
