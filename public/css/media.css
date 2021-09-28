@@ -1,0 +1,108 @@
+@media (max-width: 1170px) and (min-width: 640px) {
+    .container {
+        width: 640px !important;
+    }
+    .one {
+        background-image: url(../../assets/images/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-bottom: 35px;
+    }
+    .one header.main {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+    .one header.main .logo {
+        margin-top: 10px;
+    }
+    .one div.title {
+        margin-left: 10px;
+    }
+    .one div.title h1 {
+        font-size: 30px;
+    }
+    .one div.title p {
+        width: 350px;
+        margin-bottom: 30px;
+    }
+    .one div.title a {
+        width: 150px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+    }
+    .features {
+        background-image: url(../../assets/images/bg-features.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 130px;
+    }
+
+    .features .container{
+        padding-top: 8px;
+    }
+    .features .container .images {
+        display: none;
+    }
+    .features .container .text {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .features .container .text h3 {
+        font-size: 20px;
+        padding: 0;
+    }
+    .features .container .text p {
+        padding-bottom: 8px;
+    }
+    .features .container .text a {
+        width: 150px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+    }
+
+    .services .container div .icon{
+        padding-top: 10px;
+    }
+    .services .container div .icon ul li.service{
+        width: 200px;
+        padding-top: 90px;
+    }
+    .services .container div .icon ul li.service p{
+    width: 200px;
+    }
+
+    .services .container div .photo{
+        padding-top: 20px;
+    }
+    .services .container div .photo img{
+        width: 200px;
+    }
+
+    .services .container div .text{
+        padding-top: 30px;
+    }
+
+    .daily{
+        margin: 30px 0;
+    }
+    .daily .container .photo .flex{
+    justify-content: center
+    }
+
+    .daily .container ul li a{
+        width: 210px;
+    }
+    .daily .container ul li a img{
+        width: 210px;
+    }
+
+    .fully{
+        padding:10px 0;
+        margin-bottom: 30px;
+    }
+    
+}
